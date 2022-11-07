@@ -1,0 +1,145 @@
+.shortcut{
+  height: 48px;
+  width: auto;
+  background-color:#F5F5F5;
+  line-height: 48px;
+}
+
+.shortcut li{float: left;}
+
+.shortcut ul li a{
+  color:#6C6C6C;
+  font-size: 13px;
+}
+.shortcut ul li a:hover{
+  color: #66ccff;
+}
+
+.shortcut .fr li {
+  margin: 0 12px;
+}
+
+.shortcut .style_red{
+  color: #66ccff;
+}
+
+.header{height: 150px;position: relative;}
+
+.logo{
+  width: 200px;
+  height: 100px;
+  position: absolute;
+  left: -70px;
+}
+
+.logo a{
+  display: block;
+  width: 300px;
+  height: 150px;
+  background: url(../images/shop_car.png) no-repeat;
+  background-size: 100% 100%;
+  font-size: 0px;
+}
+
+.search{
+  width: 580px;
+  height: 48px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  border:2px solid #66ccff;
+}
+
+.search input{
+  height: 45px;
+  width:510px;
+  font-size: 16px;
+  line-height: 45px;
+  padding-left: 10px;
+  border: none;
+}
+.search a{font-size: 13px;
+padding: 0 5px;
+}
+
+#submit{
+  height: 46px;
+  width: 66px;
+  background-color: #66ccff;
+  color: #FFF;
+  border: none;
+  padding-right: 5px;
+  cursor:pointer;
+}
+
+.shopcar_title{border-bottom: 2px solid dodgerblue;padding-bottom: 20px;}
+.shopcar_title p{ color: dodgerblue;font-size: 25px;font-weight: bold;}
+
+.shopcar_list{margin-top: 20px;position: relative;height: 50px;}
+.shopcar_list p{display: inline-block;}
+.car-checkbox{margin-right: 120px;}
+.car-text{margin-right: 450px;}
+.car-price,.amount,.price-sum{margin-right: 120px;}
+
+.goods{height: auto;margin-bottom: 100px;}
+
+.goods ul{
+  height:200px;
+  border: 1px solid #666;
+  margin: 10px 0px;
+}
+
+.goods ul li{float: left;margin-top: 30px;}
+.goods ul li div{
+  width: 150px;
+}
+.goods .li_check{
+  width: 50px;
+}
+.goods .li_text{
+  width: 630px;
+  position: relative;
+}
+
+.goods .li_ob{
+  width: 64px;
+}
+
+.goods .li_text img{width: 120px;height: 120px;}
+.goods .li_text span{position: absolute;top: 0px;left: 130px;color: #000;
+  overflow: hidden;  
+  text-overflow: ellipsis; 
+  white-space: nowrap;
+  width: 500px;
+}
+
+.goods .li_price::before{
+  content: '￥';
+}
+.goods .li_text span:hover{color: dodgerblue;text-decoration: underline;}
+.li_price{color: #F03726;font-weight: bold;}
+
+
+#list_input{width: 80px;height: 20px;margin: 0 -4px;padding-left: 5px;}
+#btn1,#btn2{width: 20px;border: none;cursor: pointer;height: 20px;}
+
+.li_ob a{color: #000;}
+.li_ob a:hover{color: dodgerblue;text-decoration: underline;}
+
+
+.fixed_box{position: fixed;left:160px;bottom: 0px;z-index:999;border-top: 2px solid #000;
+  border-bottom: 2px solid #000;background-color:#CCC ;font-size: 22px;}
+.btn_sum{background-color: dodgerblue;
+  border: none;width: 100px;height: 80px;cursor: pointer;
+  border-radius: 5px 5px;
+  font-size: 22px;
+  color: #FFF;
+}
+#shop_moneysum{ display: inline;color: red;}
+#shop_moneysum::before{
+  content: '￥';
+}
+
+.li_ul:hover{
+  border: 2px solid dodgerblue;
+}
